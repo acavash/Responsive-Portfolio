@@ -1,0 +1,306 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #aeaeae;
+  background-color: #fff;
+}
+
+.bigcontainer {
+  flex: 1 0 auto;
+  position: relative;
+}
+
+.headercontainer {
+  position: relative;
+  background-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #aeaeae;
+  padding-left: 12%;
+  padding-right: 12%;
+  overflow: auto;
+}
+
+.regularcontainer {
+  position: relative;
+  margin-top: 4%;
+  margin-left: 12%;
+  margin-right: 12%;
+  overflow: auto;
+}
+
+.content {
+  float: left;
+  padding: 4%;
+  width: 60%;
+}
+
+.sidebar {
+  float: right;
+  padding: 2%;
+  width: 24%;
+}
+
+.name {
+  float: left;
+  padding: 3%;
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
+nav {
+  float: right;
+}
+
+.navul {
+  list-style-type: none;
+}
+
+.navli {
+  display: inline-block;
+  padding: 0.5%;
+}
+
+.navlink {
+  font-size: 1.25em;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aeaeae;
+}
+
+.activelink {
+  color: #4aaaa5;
+}
+
+.activelink:active {
+  color: #4aaaa5;
+}
+
+a {
+  font-size: 24px;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aeaeae;
+}
+
+hr {
+  color: #aeaeae;
+  border-width: 1px;
+  border-style: solid;
+}
+
+h1 {
+  font-size: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4aaaa5
+}
+
+h3 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4aaaa5
+}
+
+p {
+  font-size: 18px;
+  font-family: Georgia, serif;
+  padding-bottom: 20px;
+  line-height: 150%;
+}
+
+nav div a:hover {
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
+.background {
+  background-image: url("../images/dust_scratches/dustscratches.png");
+}
+
+.profilepic {
+  float: left;
+  width: 60%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+
+.borderstyle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  background-color: #fff;
+  background-color: #fff;
+}
+
+.portfoliocontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfoliocontainer div {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.thumbnailcontainer {
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 1%;
+  text-align: center;
+}
+
+.thumbnail-container:hover {}
+
+.thumbnailcontainer a img {
+  width: 100%;
+}
+
+.thumbnailcontainer h3 {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #4aaaa5;
+}
+
+.links {
+  width: 64px;
+  height: 64px;
+  margin-left: 3%;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  background-color: #4aaaa5;
+}
+
+.text {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  font-size: 14px;
+  color: #999999;
+}
+
+textarea {
+  font-size: 14px;
+  color: #999999;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  font-family: Georgia, serif;
+  padding: 40px;
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-top-color: #4aaaa5;
+  color: #e6e6e6;
+  background-color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    text-align: center;
+  }
+  li {
+    display: block;
+  }
+  .headercontainer {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .maincontainer {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .content {
+    float: left;
+    width: 90%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .sidebar {
+    float: left;
+    width: 90%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .name {
+    width: 100%;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+  }
+  .navul {
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .navul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  .navli {
+    display: inline-block;
+  }
+  .headercontainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .maincontainer {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .profilepic {
+    width: 100%;
+  }
+  .thumbnailcontainer {
+    width: 98%;
+  }
+}
+
+}
