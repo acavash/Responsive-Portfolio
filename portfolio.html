@@ -2,94 +2,88 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Responsive portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <html lang="en">
+  <title>Personal Portfolio Page</title>
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Ubuntu:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
-  <div class="bigcontainer background">
+
+  <div class="wrapper">
+
     <header>
-      <div class="headercontainer">
-        <div class="name">
-          <h1>Avash Chapagain</h1>
+      <div class="container">
+        <h1 class="header-box header"><a href="index.html">Avash Chapagain</a></h1>
+        <nav class="stroke">
+          <ul class="header-nav">
+            <li class="nav bar-1 .cl-effect"><a href="index.html">About</a></li>
+            <li class="nav bar-2 .cl-effect"><a href="portfolio.html">Portfolio</a></li>
+            <li class="nav bar-3 .cl-effect"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
 
-          <nav>
-            <ul class="navul">
-              <li class="navli">
-                <a class="navlink" href="index.html">About</a>
-              </li>
-              <li class="navli">
-                <a class="navlink activelink" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="navli">
-                <a class="navlink" href="contact.html">Contact</a>
-              </li>
+    <div class="container clearfix">
+      <section>
 
-            </ul>
-          </nav>
+        <h1 class="teal header-space">Portfolio</h1>
+
+        <div class="content">
+          <div class="portfolio-content">
+            <div class="portfolio-icon1">
+              <a href="#" target="_blank"><img class="portfolio-img" src="assets/images/Hangman.png" alt="hangman">
+      <div class="portfolio-label">Hangman</div></a>
+            </div>
+            <div class="portfolio-icon2">
+              <a href="#" target="_blank"><img class="portfolio-img" src="assets/images/rpg.jpg" alt="rpg-game">
+      <div class="portfolio-label">RPG Game</div></a>
+            </div>
+            <div class="portfolio-icon1">
+              <a href="#" target="_blank"><img class="portfolio-img" src="assets/images/trivia.png" alt="trivia-game">
+      <div class="portfolio-label">Trivia Game</div></a>
+            </div>
+            <div class="portfolio-icon2">
+              <a href="#" target="_blank"><img class="portfolio-img" src="assets/images/rutgers.jpg" alt="gw-info-widget">
+      <div class="portfolio-label">GW Info Widget</div></a>
+            </div>
+            <div class="portfolio-icon1">
+              <a href="#" target="_blank"><img class="portfolio-img" src="assets/images/rock.jpg" alt="rock-paper-scissors">
+      <div class="portfolio-label">Rock Paper Scissors</div></a>
+            </div>
+          </div>
         </div>
-      </header>
 
-
-    <div class="regularcontainer">
-      <section class="content borderstyle">
-        <h2>Portfolio</h2>
-        <hr>
-        <div class="portfoliocontainer">
-          <div class="thumbnailcontainer">
-            <a href="#portfolio"><img src="assets/images/Hangman.png" alt="[Hangman]"></a>
-            <h3>Hangman</h3></div>
-
-          <div class="thumbnailcontainer">
-            <a href="#portfolio"><img class="portfoliothumbnail" src="assets/images/rpg.jpg" alt="[RPG game]"></a>
-            <h3>RPG game</h3></div>
-
-          <div class="thumbnailcontainer">
-            <a href="#portfolio"><img class="portfoliothumbnail" src="assets/images/trivia.png" alt="[Trivia game]"></a>
-            <h3>Trivia game</h3>
-          </div>
-
-          <div class="thumbnailcontainer">
-            <a href="#portfolio"><img class="portfoliothumbnail" src="assets/images/rutgers.jpg" alt="[Rutgers info widget]"></a>
-            <h3>Rutgers info widget</h3>
-          </div>
-
-          <div class="thumbnailcontainer">
-            <a href="#portfolio"><img class="portfoliothumbnail" src="assets/images/rock.jpg" alt="[Rock Paper Scissors]"></a>
-            <h3>Rock Paper Scissors</h3>
-          </div>
-
-        </div>
       </section>
 
-      <section class="sidebar borderstyle">
-        <h3>Connect with Me</h3>
-        <hr>
-        <div>
-          <a href="https://github.com/acavash" target="_blank">
-              <img class="links"src="assets/images/github.png"alt="[git]">
-            </a>
-          <a href="https://www.linkedin.com/in/avash-chapagain-949014a1/" alt="[LinkedIn]">
-              <img class="links"src="assets/images/linkedin.png"alt="[LinkedIn]">
-            </a>
-          <a href="https://stackoverflow.com/users/8903475/avash" target="_blank">
-              <img class="links"src="assets/images/overflow.png"alt="[Stackoverflow]">
-            </a>
-        </div>
-      </section>
-    </div>
-    </div>
+      <aside>
 
-    <footer>
-      <p>
-        © Copyright 2017 Avash Chapagain
-      </p>
-    </footer>
+        <h2 class="teal header-space">Connect with me</h2>
+
+        <div class="content">
+
+          <a href="https://github.com/acavash" target="_blank" "><img class="icons " src="assets/images/github.png " alt="github "></a>
+      <a href="https://www.linkedin.com/in/avash-chapagain/ " target="blank "><img class="icons " src="assets/images/linkedin.png " alt="linkedin "></a>
+      <a href="https://stackoverflow.com/users/8903475/avash" target="blank "><img class="icons " src="assets/images/overflow.png " alt="stackoverflow "></a>
     </div>
+    </aside>
+  </div>
+</div>
+  <footer>
+    <p class="white ">&copy Copyright 2018 Avash Chapagain </p>
+  </footer>
 </body>
-
 </html>
